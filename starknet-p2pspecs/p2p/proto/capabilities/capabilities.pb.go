@@ -319,7 +319,7 @@ const file_p2p_proto_capabilities_proto_rawDesc = "" +
 	"num_blocks\x18\x01 \x01(\x04R\tnumBlocks\x1aC\n" +
 	"\x13StaticPruneStrategy\x12,\n" +
 	"\x12first_block_number\x18\x01 \x01(\x04R\x10firstBlockNumberB\x10\n" +
-	"\x0eprune_strategyBAZ?github.com/starknet-io/starknet-p2pspecs/p2p/proto/capabilitiesb\x06proto3"
+	"\x0eprune_strategyBAZ?github.com/starknet-io/starknet-p2p-specs/p2p/proto/capabilitiesb\x06proto3"
 
 var (
 	file_p2p_proto_capabilities_proto_rawDescOnce sync.Once

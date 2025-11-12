@@ -7,8 +7,8 @@
 package state
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
-	common1 "github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
+	common1 "github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -378,7 +378,7 @@ const file_p2p_proto_sync_state_proto_rawDesc = "" +
 	"\rcontract_diff\x18\x01 \x01(\v2\r.ContractDiffH\x00R\fcontractDiff\x127\n" +
 	"\x0edeclared_class\x18\x02 \x01(\v2\x0e.DeclaredClassH\x00R\rdeclaredClass\x12\x18\n" +
 	"\x03fin\x18\x03 \x01(\v2\x04.FinH\x00R\x03finB\x14\n" +
-	"\x12state_diff_messageB?Z=github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/stateb\x06proto3"
+	"\x12state_diff_messageB?Z=github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/stateb\x06proto3"
 
 var (
 	file_p2p_proto_sync_state_proto_rawDescOnce sync.Once

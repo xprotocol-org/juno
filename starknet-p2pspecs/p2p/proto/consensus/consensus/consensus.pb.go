@@ -7,8 +7,8 @@
 package consensus
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
-	transaction "github.com/starknet-io/starknet-p2pspecs/p2p/proto/transaction"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
+	transaction "github.com/starknet-io/starknet-p2p-specs/p2p/proto/transaction"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -1095,7 +1095,7 @@ const file_p2p_proto_consensus_consensus_proto_rawDesc = "" +
 	"\x15l1_data_gas_price_wei\x18\x06 \x01(\v2\b.Uint128R\x11l1DataGasPriceWei\x121\n" +
 	"\x10eth_to_strk_rate\x18\a \x01(\v2\b.Uint128R\rethToStrkRate\x125\n" +
 	"\n" +
-	"l1_da_mode\x18\b \x01(\x0e2\x17.L1DataAvailabilityModeR\bl1DaModeBHZFgithub.com/starknet-io/starknet-p2pspecs/p2p/proto/consensus/consensusb\x06proto3"
+	"l1_da_mode\x18\b \x01(\x0e2\x17.L1DataAvailabilityModeR\bl1DaModeBHZFgithub.com/starknet-io/starknet-p2p-specs/p2p/proto/consensus/consensusb\x06proto3"
 
 var (
 	file_p2p_proto_consensus_consensus_proto_rawDescOnce sync.Once

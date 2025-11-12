@@ -7,8 +7,8 @@
 package transaction
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
-	transaction "github.com/starknet-io/starknet-p2pspecs/p2p/proto/transaction"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
+	transaction "github.com/starknet-io/starknet-p2p-specs/p2p/proto/transaction"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -141,7 +141,7 @@ const file_p2p_proto_mempool_transaction_proto_rawDesc = "" +
 	"\x11deploy_account_v3\x18\x02 \x01(\v2\x10.DeployAccountV3H\x00R\x0fdeployAccountV3\x12(\n" +
 	"\tinvoke_v3\x18\x03 \x01(\v2\t.InvokeV3H\x00R\binvokeV3\x120\n" +
 	"\x10transaction_hash\x18\x04 \x01(\v2\x05.HashR\x0ftransactionHashB\x05\n" +
-	"\x03txnBHZFgithub.com/starknet-io/starknet-p2pspecs/p2p/proto/mempool/transactionb\x06proto3"
+	"\x03txnBHZFgithub.com/starknet-io/starknet-p2p-specs/p2p/proto/mempool/transactionb\x06proto3"
 
 var (
 	file_p2p_proto_mempool_transaction_proto_rawDescOnce sync.Once

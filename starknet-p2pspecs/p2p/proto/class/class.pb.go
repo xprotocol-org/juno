@@ -7,7 +7,7 @@
 package class
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -464,7 +464,7 @@ const file_p2p_proto_class_proto_rawDesc = "" +
 	"\x06domain\x18\x03 \x01(\rR\x06domain\x12$\n" +
 	"\n" +
 	"class_hash\x18\x04 \x01(\v2\x05.HashR\tclassHashB\a\n" +
-	"\x05classB:Z8github.com/starknet-io/starknet-p2pspecs/p2p/proto/classb\x06proto3"
+	"\x05classB:Z8github.com/starknet-io/starknet-p2p-specs/p2p/proto/classb\x06proto3"
 
 var (
 	file_p2p_proto_class_proto_rawDescOnce sync.Once

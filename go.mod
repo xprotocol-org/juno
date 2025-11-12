@@ -30,7 +30,7 @@ require (
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.7
 	github.com/spf13/viper v1.20.1
-	github.com/starknet-io/starknet-p2pspecs v0.0.0-00010101000000-000000000000
+	github.com/starknet-io/starknet-p2p-specs v0.1.0
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/automaxprocs v1.6.0
 	go.uber.org/mock v0.5.2
@@ -197,4 +197,4 @@ require (
 	lukechampine.com/blake3 v1.4.1 // indirect
 )
 
-replace github.com/starknet-io/starknet-p2pspecs => ./starknet-p2pspecs
+replace github.com/starknet-io/starknet-p2p-specs => ./starknet-p2pspecs

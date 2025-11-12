@@ -7,8 +7,8 @@
 package event
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
-	common1 "github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
+	common1 "github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -234,7 +234,7 @@ const file_p2p_proto_sync_event_proto_rawDesc = "" +
 	"\x0eEventsResponse\x12\x1e\n" +
 	"\x05event\x18\x01 \x01(\v2\x06.EventH\x00R\x05event\x12\x18\n" +
 	"\x03fin\x18\x02 \x01(\v2\x04.FinH\x00R\x03finB\x0f\n" +
-	"\revent_messageB?Z=github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/eventb\x06proto3"
+	"\revent_messageB?Z=github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/eventb\x06proto3"
 
 var (
 	file_p2p_proto_sync_event_proto_rawDescOnce sync.Once

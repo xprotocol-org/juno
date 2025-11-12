@@ -7,9 +7,9 @@
 package snapshot
 
 import (
-	class "github.com/starknet-io/starknet-p2pspecs/p2p/proto/class"
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
-	state "github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/state"
+	class "github.com/starknet-io/starknet-p2p-specs/p2p/proto/class"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
+	state "github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/state"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -1169,7 +1169,7 @@ const file_p2p_proto_snapshot_proto_rawDesc = "" +
 	"\astorage\x18\x02 \x01(\v2\x10.ContractStorageH\x00R\astorage\x12\x18\n" +
 	"\x03fin\x18\x03 \x01(\v2\x04.FinH\x00R\x03finB\v\n" +
 	"\tresponsesB\r\n" +
-	"\v_state_rootB=Z;github.com/starknet-io/starknet-p2pspecs/p2p/proto/snapshotb\x06proto3"
+	"\v_state_rootB=Z;github.com/starknet-io/starknet-p2p-specs/p2p/proto/snapshotb\x06proto3"
 
 var (
 	file_p2p_proto_snapshot_proto_rawDescOnce sync.Once

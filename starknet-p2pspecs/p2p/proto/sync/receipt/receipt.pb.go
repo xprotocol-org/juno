@@ -7,7 +7,7 @@
 package receipt
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -906,7 +906,7 @@ const file_p2p_proto_sync_receipt_proto_rawDesc = "" +
 	"\x04type*\x1d\n" +
 	"\tPriceUnit\x12\a\n" +
 	"\x03Wei\x10\x00\x12\a\n" +
-	"\x03Fri\x10\x01BAZ?github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/receiptb\x06proto3"
+	"\x03Fri\x10\x01BAZ?github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/receiptb\x06proto3"
 
 var (
 	file_p2p_proto_sync_receipt_proto_rawDescOnce sync.Once

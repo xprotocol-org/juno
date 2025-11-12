@@ -7,10 +7,10 @@
 package transaction
 
 import (
-	common1 "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/common"
-	receipt "github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/receipt"
-	transaction "github.com/starknet-io/starknet-p2pspecs/p2p/proto/transaction"
+	common1 "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/common"
+	receipt "github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/receipt"
+	transaction "github.com/starknet-io/starknet-p2p-specs/p2p/proto/transaction"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -1111,7 +1111,7 @@ const file_p2p_proto_sync_transaction_proto_rawDesc = "" +
 	"\tsignature\x18\x03 \x01(\v2\x11.AccountSignatureR\tsignature\x12$\n" +
 	"\bcalldata\x18\x04 \x03(\v2\b.Felt252R\bcalldata\x12\x1e\n" +
 	"\x05nonce\x18\x05 \x01(\v2\b.Felt252R\x05nonceB\x05\n" +
-	"\x03txnBEZCgithub.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/transactionb\x06proto3"
+	"\x03txnBEZCgithub.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/transactionb\x06proto3"
 
 var (
 	file_p2p_proto_sync_transaction_proto_rawDescOnce sync.Once

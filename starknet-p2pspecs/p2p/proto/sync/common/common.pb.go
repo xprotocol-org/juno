@@ -7,7 +7,7 @@
 package common
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -243,7 +243,7 @@ const file_p2p_proto_sync_common_proto_rawDesc = "" +
 	"\tDirection\x12\v\n" +
 	"\aForward\x10\x00\x12\f\n" +
 	"\bBackward\x10\x01B\a\n" +
-	"\x05startB@Z>github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/commonb\x06proto3"
+	"\x05startB@Z>github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/commonb\x06proto3"
 
 var (
 	file_p2p_proto_sync_common_proto_rawDescOnce sync.Once

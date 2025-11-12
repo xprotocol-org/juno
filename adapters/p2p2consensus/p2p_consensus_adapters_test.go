@@ -9,7 +9,7 @@ import (
 	"github.com/NethermindEth/juno/adapters/p2p2consensus"
 	transactiontestutils "github.com/NethermindEth/juno/adapters/testutils"
 	"github.com/NethermindEth/juno/utils"
-	"github.com/starknet-io/starknet-p2pspecs/p2p/proto/consensus/consensus"
+	"github.com/starknet-io/starknet-p2p-specs/p2p/proto/consensus/consensus"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,9 +7,9 @@
 package class
 
 import (
-	class "github.com/starknet-io/starknet-p2pspecs/p2p/proto/class"
-	common1 "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/common"
+	class "github.com/starknet-io/starknet-p2p-specs/p2p/proto/class"
+	common1 "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -162,7 +162,7 @@ const file_p2p_proto_sync_class_proto_rawDesc = "" +
 	"\x0fClassesResponse\x12\x1e\n" +
 	"\x05class\x18\x01 \x01(\v2\x06.ClassH\x00R\x05class\x12\x18\n" +
 	"\x03fin\x18\x02 \x01(\v2\x04.FinH\x00R\x03finB\x0f\n" +
-	"\rclass_messageB?Z=github.com/starknet-io/starknet-p2pspecs/p2p/proto/sync/classb\x06proto3"
+	"\rclass_messageB?Z=github.com/starknet-io/starknet-p2p-specs/p2p/proto/sync/classb\x06proto3"
 
 var (
 	file_p2p_proto_sync_class_proto_rawDescOnce sync.Once

@@ -7,7 +7,7 @@
 package discovery
 
 import (
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
@@ -376,7 +376,7 @@ const file_p2p_proto_discovery_proto_rawDesc = "" +
 	"\x03ids\x18\x01 \x03(\v2\a.PeerIDR\x03ids\",\n" +
 	"\rNodesResponse\x12\x1b\n" +
 	"\x05nodes\x18\x01 \x03(\v2\x05.NodeR\x05nodes:I\n" +
-	"\rpowDifficulty\x12\x1f.google.protobuf.MessageOptions\x18\xe9\a \x01(\fR\rpowDifficulty\x88\x01\x01B>Z<github.com/starknet-io/starknet-p2pspecs/p2p/proto/discoveryb\x06proto3"
+	"\rpowDifficulty\x12\x1f.google.protobuf.MessageOptions\x18\xe9\a \x01(\fR\rpowDifficulty\x88\x01\x01B>Z<github.com/starknet-io/starknet-p2p-specs/p2p/proto/discoveryb\x06proto3"
 
 var (
 	file_p2p_proto_discovery_proto_rawDescOnce sync.Once

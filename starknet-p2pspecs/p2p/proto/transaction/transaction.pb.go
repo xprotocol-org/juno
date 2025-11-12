@@ -7,8 +7,8 @@
 package transaction
 
 import (
-	class "github.com/starknet-io/starknet-p2pspecs/p2p/proto/class"
-	common "github.com/starknet-io/starknet-p2pspecs/p2p/proto/common"
+	class "github.com/starknet-io/starknet-p2p-specs/p2p/proto/class"
+	common "github.com/starknet-io/starknet-p2p-specs/p2p/proto/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -711,7 +711,7 @@ const file_p2p_proto_transaction_proto_rawDesc = "" +
 	"\x0epaymaster_data\x18\b \x03(\v2\b.Felt252R\rpaymasterData\x12P\n" +
 	"\x1cnonce_data_availability_mode\x18\t \x01(\x0e2\x0f.VolitionDomainR\x19nonceDataAvailabilityMode\x12L\n" +
 	"\x1afee_data_availability_mode\x18\n" +
-	" \x01(\x0e2\x0f.VolitionDomainR\x17feeDataAvailabilityModeB@Z>github.com/starknet-io/starknet-p2pspecs/p2p/proto/transactionb\x06proto3"
+	" \x01(\x0e2\x0f.VolitionDomainR\x17feeDataAvailabilityModeB@Z>github.com/starknet-io/starknet-p2p-specs/p2p/proto/transactionb\x06proto3"
 
 var (
 	file_p2p_proto_transaction_proto_rawDescOnce sync.Once

@@ -708,7 +708,7 @@ const file_p2p_proto_common_proto_rawDesc = "" +
 	"\x04Blob\x10\x01* \n" +
 	"\x0eVolitionDomain\x12\x06\n" +
 	"\x02L1\x10\x00\x12\x06\n" +
-	"\x02L2\x10\x01B;Z9github.com/starknet-io/starknet-p2pspecs/p2p/proto/commonb\x06proto3"
+	"\x02L2\x10\x01B;Z9github.com/starknet-io/starknet-p2p-specs/p2p/proto/commonb\x06proto3"
 
 var (
 	file_p2p_proto_common_proto_rawDescOnce sync.Once
